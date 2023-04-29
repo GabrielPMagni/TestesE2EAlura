@@ -1,0 +1,16 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Magni",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "npx cypress open",
+    "test-quiet": "npx cypress run --reporter mochawesome"
+  },
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "mochawesome": "^7.1.3"
+  }
+}

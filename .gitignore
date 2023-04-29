@@ -1,0 +1,4 @@
+project1/cypress/report/
+project1/cypress/videos/
+node_modules/
+.env
