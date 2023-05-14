@@ -4,13 +4,17 @@
   "main": "index.js",
   "author": "Gabriel Magni",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^20.1.4",
+    "typescript": "^5.0.4"
+  },
   "scripts": {
     "test": "npx cypress open",
     "test-quiet": "npx cypress run --reporter mochawesome"
   },
   "devDependencies": {
     "cypress": "^12.11.0",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "ts-node": "^10.9.1"
   }
 }
